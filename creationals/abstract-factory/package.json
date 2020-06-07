@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "nodemon": "^2.0.2",
-    "sucrase": "^3.12.1"
-  },
-  "scripts" : {
-    "dev": "nodemon --exec sucrase-node ./src/index.js"
-  }
-}
