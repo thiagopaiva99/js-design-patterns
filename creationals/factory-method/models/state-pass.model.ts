@@ -1,4 +1,4 @@
-import { Pass } from "./pass.model";
+import { Pass } from "./pass.interface";
 
 export class StatePass implements Pass {
 

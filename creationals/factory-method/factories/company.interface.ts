@@ -1,4 +1,4 @@
-import { Pass } from "../models/pass.model";
+import { Pass } from "../models/pass.interface";
 
 export interface Company {
 

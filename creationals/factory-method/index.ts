@@ -1,7 +1,7 @@
 import { CompanyInterstateBus } from "./factories/company-interstate-bus.factory"
-import { Company } from "./factories/company.factory";
+import { Company } from "./factories/company.interface";
 import { CompanyStateBus } from "./factories/company-state-bus.factory";
-import { Pass } from "./models/pass.model";
+import { Pass } from "./models/pass.interface";
 
 export const start = () => {
     const interstateBusCompany: Company = new CompanyInterstateBus();
